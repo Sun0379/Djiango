@@ -1,0 +1,5 @@
+1、TypeError: 'list' object is not callable
+  搜索大多说是变量名重复，实际发现是创建元组的时候少写了一个等号
+  STATICFILES_DIRS= (
+    os.path.join(BASE_DIR, 'static'),
+)
